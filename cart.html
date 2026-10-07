@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="icon" href="images/5870915226859934024_109-removebg-preview.png">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootsrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="top-header" d-flex align-items-center py-2>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-4">
+                        <a href="">
+                            <img src="images/5870915226859934022_109-removebg-preview.png" alt="logo" width="85px">
+                        </a>
+                    </div>
+                    <div class="col-6 col-md-4"> <input type="text" class="form-control"
+                            placeholder="ابحث هنا عن نوع الورد">
+                    </div>
+                    <div class="col-md-4 left-header d-flex align-items-center d-none d-lg-flex justify-content-end ">
+                        <a data-bs-toggle="offcanvas" href="#cart" role="button" aria-controls="offcanvasExample">
+                            <span>السلة</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+                            <span>الدخول</span>
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <a href="">
+                            <span>المفضلة</span>
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttom-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div>
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#login">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="category.html">الورود</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الأحواض</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">النباتات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الأعشاب الطبية</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- end-header  -->
+    <!-- start bunner  -->
+    <section class="bunner2" id="products3">
+        <h1 class="category-title2">سلة المشتريات</h1>
+    </section>
+    <!-- end bunner  -->
+     <section class="shopping">
+    <div class="container ">
+        <div class="row">
+            <div class="col-md-8 mt-5">
+                <div class=" row row-cols-1 row-min-card m-1">
+
+                    <div class="col mini-card d-flex justify-content-between align-items-center px-3">
+                        <p class="cart-title">
+                            المنتج
+                        </p>
+                        <p class="cart-title">السعر
+
+                        </p>
+                        <p class="cart-title">
+                            الكمية
+                        </p>
+
+                        <P class="cart-title">الإجمالي</P>
+                    </div>
+                    <div class="col mini-card d-flex justify-content-between align-items-center px-3">
+                        <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+                            <img width="70px" src="images/5906823833514086182_121.jpg" alt="flowers">
+                            <p>ورود ملونة</p>
+                        </div>
+                        <p>20$</p>
+                        <div class="btn-group btn-quantity-card">
+                            <button type="button" class="btn btn">+</button>
+                            <button type="button" class="btn btn">1</button>
+                            <button type="button" class="btn btn">-</button>
+                        </div>
+
+                        <P>56$</P>
+                    </div>
+                    <div class="col mini-card d-flex justify-content-between align-items-center px-3">
+                        <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+                            <img width="70px" src="images/5904364256067522527_121.jpg" alt="flowers">
+                            <p>نباتات للزينة</p>
+                        </div>
+                        <p>15$</p>
+                        <div class="btn-group btn-quantity-card">
+                            <button type="button" class="btn btn">+</button>
+                            <button type="button" class="btn btn">1</button>
+                            <button type="button" class="btn btn">-</button>
+                        </div>
+                        <P>40$</P>
+                    </div>
+                    <div class="col mini-card d-flex justify-content-between align-items-center px-3">
+                        <div class="d-flex flex-column flex-md-row gap-2 align-items-center">
+                            <img width="70px" src="images/5906823833514086179_121.jpg" alt="flowers">
+                            <p>هدية تخرج</p>
+                        </div>
+                        <p>50$</p>
+                        <div class="btn-group btn-quantity-card">
+                            <button type="button" class="btn btn">+</button>
+                            <button type="button" class="btn btn">1</button>
+                            <button type="button" class="btn btn">-</button>
+                        </div>
+                        <P>80$</P>
+                    </div>
+
+                </div>
+                <div class="code d-flex mt-3 mb-5 gap-2">
+                    <input type="text" class="form-control w-25">
+                    <button class="btn-code">تطبيق الكوبون</button>
+                </div>
+            </div>
+            <div class="col-md-4 mt-5">
+                <div class="summery mt-2">
+                    <h4 class="summery-title">ملخص سلة المشتريات</h4>
+                    <div class="d-flex justify-content-between cart-item">
+                        <p>المجموع:</p>
+                        <p>100$</p>
+                    </div>
+                    <div class="d-flex justify-content-between cart-item">
+                        <p>قيمة الخصم :</p>
+                        <p>50%</p>
+                    </div>
+
+                    <div class="d-flex justify-content-between cart-item">
+                        <p>الإجمالي :</p>
+                        <p>100$</p>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <!-- <button class="btn-summery1">العودة للمتجر</button> -->
+                        
+                <button type="button" class="btn-summery1 " onclick="window.location.href='index.html'">العودة للمتجر</button>
+                <button type="button" class="btn-summery2 " onclick="window.location.href='checkout.html'">الانتقال للدفع</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- start footer   -->
+    <footer>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                <div class="col f1 mb-3">
+                    <img src="images/5870915226859934022_109-removebg-preview.png" alt="logo" width="40%">
+                    <p>متجرنا متخصص بالورود والهدايا ويسعى لتقديم كافة الخدمات بجودة عالية.</p>
+                    <ul class="navbar-nav ul-info">
+                        <li><i class="fa-solid fa-location-dot"></i>سوريا - حماة</li>
+                        <li><i class="fa-solid fa-phone"></i></i>+9638827143</li>
+                        <li><i class="fa-solid fa-envelope"></i></i>info@tolip.com</li>
+
+                    </ul>
+                </div>
+                <div class="col f2 mb-3">
+                    <h3>أهم الروابط</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="">من نحن</a></li>
+                        <li><a href="#products3">خدماتنا</li>
+                        <li><a href="">اتصل بنا</a> </li>
+
+
+                    </ul>
+                </div>
+                <div class="col f3 mb-3">
+                    <h3>التصنيفات</h3>
+                    <ul class="navbar-nav">
+                        <li><a href="category.html">الأزهار</a></li>
+                        <li><a href="category.html">النباتات</a></li>
+                        <li><a href="category.html">التنسيقات</a></li>
+                        <li><a href="product.html">الهدايا</a></li>
+
+
+                    </ul>
+                </div>
+                <div class="col f4 mb-3">
+                    <h3>النشرة البريدية</h3>
+                    <p>يهمنا مشاركتك معنا في متجر توليب و إطلاعك على أحدث الخدمات.</p>
+                    <form>
+                        <input type="text" placeholder="الرجاء إدخال البريد" class="form-control mb-2">
+                        <button class="btn-form w-100">اشتراك</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 mt-3">
+                <div class="col">
+                    <img src="images/visa2.png" alt="logo" width="40%">
+                </div>
+
+                <div class="col d-flex justify-content-end">
+                    <p class="text-center">جميع الحقوق محفوظة لدى @tolip.com متجر توليب للورود.</p>
+                </div>
+
+            </div>
+    </footer>
+    <!-- end footer   -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- cart -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">سلة المشتريات</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class=" row row-cols-1 row-min-card m-1">
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img width="15%" src="images/5904364256067522526_121.jpg" alt="flowers">
+                    <p>ورود ملونة</p>
+                    <div class="btn-group btn-quantity-card">
+                        <button type="button" class="btn btn">+</button>
+                        <button type="button" class="btn btn">1</button>
+                        <button type="button" class="btn btn">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img width="15%" src="images/5900261514327822537_121.jpg" alt="flowers">
+                    <p>أحواض</p>
+                    <div class="btn-group btn-quantity-card">
+                        <button type="button" class="btn btn">+</button>
+                        <button type="button" class="btn btn">1</button>
+                        <button type="button" class="btn btn">-</button>
+                    </div>
+                </div>
+                <div class=" col mini-card d-flex justify-content-between align-items-center">
+                    <img width="15%" src="images/5904364256067522527_121.jpg" alt="flowers">
+                    <p>نباتات زينة</p>
+                    <div class="btn-group btn-quantity-card">
+                        <button type="button" class="btn btn">+</button>
+                        <button type="button" class="btn btn">1</button>
+                        <button type="button" class="btn btn">-</button>
+                    </div>
+                </div>
+                <div class="col mini-card d-flex justify-content-between align-items-center">
+                    <img width="15%" src="images/5904364256067522528_121.jpg" alt="flowers">
+                    <p>أزهار دوار الشمس</p>
+                    <div class="btn-group btn-quantity-card">
+                        <button type="button" class="btn btn">+</button>
+                        <button type="button" class="btn btn">1</button>
+                        <button type="button" class="btn btn">-</button>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-column gap-3">
+                <div class="alert alert-danger p-3 my-3 text-center btn-mini">
+                    <p>مجموع المنتجات 250$ فقط لا غير.</p>
+                </div>
+
+               <button type="button" class="btn-mini-card w-100" onclick="window.location.href='cart.html'">
+                    عرض السلة
+                </button>
+
+
+                <button type="button" class="btn-card w-100" onclick="window.location.href='checkout.html'">إتمام
+                    الطلب</button>
+            </div>
+        </div>
+    </div>
+    <!-- filter -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">الفلترة</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="filter-section sticky-lg-top">
+                <h4 class="filter-title">فلترة بنوع الورد</h4>
+                <input type="text" class="form-control" placeholder="اكتب اسم المنتج للبحث عنه">
+                <select name="" id="" class="form-select mt-3">
+                    <option value="">ورود ملونة</option>
+                    <option value="">ورود توليب</option>
+                    <option value="">ورود جوري</option>
+                    <option value="">ورود دوار الشمس</option>
+                    <option value="">ورود الجيبسوفيل</option>
+                </select>
+                <hr>
+                <h4 class="filter-title">فلترة بالبحث</h4>
+                <div class="filter-radio d-flex flex-column gap-3">
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">ورود</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">ورود</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">ورود</label>
+                    </div>
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">ورود</label>
+                    </div>
+
+                    <div>
+                        <input name="category" type="radio" class="form-check-input">
+                        <label for="" class="form-label">ورود</label>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- login -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">تسجيل الدخول</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="mini-login">
+                <form>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">اسم المستخدم أو البريد</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">تذكر بياناتي</label>
+                    </div>
+                    <button type="submit" class="btn btn-submit1 w-100">تسجيل الدخول</button>
+                </form>
+                <div class="alert alert-danger my-3 text-center">
+                    <a href="">انقر هنا في حال نسيت كلمة المرور</a>
+                </div>
+                <hr>
+                <div class="text-center mt-5">
+                    <i class="fa-regular fa-user fa-5x"></i>
+                    <p>لا يوجد لديك حساب؟</p>
+                    <a href="" class="btn btn-danger w-100 btn-login">إنشاء حساب جديد</a>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script src="js/bootsrap.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
